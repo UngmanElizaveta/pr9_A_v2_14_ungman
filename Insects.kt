@@ -1,20 +1,20 @@
-open class Insects(var type:String, var name:String, var size:String)
-{
-    open fun names ()
-    {
-      name=readln()!!.toString()
-    }
-    open fun types()
-    {
-        type=readln()!!.toString()
-    }
-    open fun sizes()
-    {
-        size=readln()!!.toString()
-    }
-    open fun GetInfo()
-    {
-        println("его имя $name, его тип $type,его размер $size")
+open class Insects
+    (
+
+    var type:String,
+    var name:String,
+    var size:String,
+) {
+    open fun names() {
+        println("тип $type")
     }
 
+    open fun types() {
+        println("имя $name")
+    }
+
+    open fun sizes() {
+        println("размер $size")
+    }
 }
+
